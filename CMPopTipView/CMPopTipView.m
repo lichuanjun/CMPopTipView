@@ -546,7 +546,7 @@
         if (self.animation == CMPopTipAnimationSlide) {
             self.alpha = 0.0;
             CGRect startFrame = finalFrame;
-            startFrame.origin.y += 10;
+            startFrame.origin.y -= 10;
             self.frame = startFrame;
         }
 		else if (self.animation == CMPopTipAnimationPop) {
